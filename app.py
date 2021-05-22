@@ -75,4 +75,3 @@ if __name__ == '__main__':
 
     with Pool(2) as p:
         p.map(partial(process_item, source_folder=source_folder), items)
-
